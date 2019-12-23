@@ -1,16 +1,14 @@
 #include <iostream>
+#include <math.h>
 using namespace std;
-int main() { 
-     int A,B,c;
-     cout << "A=";
-     cin >> A;
-     cout << "B=";
-     cin >> B;
-     c=A;
-     A=B;
-     B=c;
-     cout << "A=" << A << endl;
-     cout << "B=" << B;
-     return 0;
-	
+int
+main ()
+{
+  cout << "Vvedite chisla" << endl;
+  float a, b, c;
+  cin>>a>>b;
+  c=a;
+  a=b;
+  b=c;
+  cout << "A=" <<a<< ", B=" <<b;
 }
